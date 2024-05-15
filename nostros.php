@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8" />
@@ -15,7 +15,16 @@
     <link href="plantilla/Admin/vertical/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <link href="plantilla/Admin/vertical/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .text-justify {
+            text-align: justify;
+        }
 
+        .large-text {
+            font-size: 1.2rem;
+            /* Ajusta este valor según tus necesidades */
+        }
+    </style>
 </head>
 
 <body>
@@ -23,11 +32,11 @@
     <br><br><br>
     <div class="container my-5">
         <div class="row">
-            <div class="col-md-8 d-flex justify-content-center align-items-center">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
                 <img src="imagenes/33926398-personal-del-equipo-de-ventas-sonriente-en-supermercado-con-los-brazos-cruzados (1).jpg"
                     class="img-fluid" alt="Imagen de Nosotros">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-8">
                 <h2 class="text-center">Sobre Nosotros</h2>
                 <p class="text-justify large-text">
                     Bienvenidos a nuestra tienda virtual. Somos una empresa comprometida con ofrecer una experiencia de
@@ -51,10 +60,8 @@
         <?php include ('include/pie_pagina.php'); ?>
     </div>
 
-
-
     <!-- jQuery  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="plantilla/Admin/vertical/assets/js/jquery.min.js"></script>
     <script src="plantilla/Admin/vertical/assets/js/bootstrap.bundle.min.js"></script>
     <script src="plantilla/Admin/vertical/assets/js/metismenu.min.js"></script>
