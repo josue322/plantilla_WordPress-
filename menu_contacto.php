@@ -10,13 +10,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- App favicon -->
-    <link rel="shortcut icon" href="plantilla/Admin/vertical/assets/images/favicon.ico">
+    <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/images/favicon.ico">
 
     <!-- App css -->
-    <link href="plantilla/Admin/vertical/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="plantilla/Admin/vertical/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="plantilla/Admin/vertical/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php bloginfo('template_url'); ?>/https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
@@ -48,15 +48,15 @@
     </div>
     <?php include ('include/pie_pagina.php') ?>
     <!-- jQuery  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/js/bootstrap.min.js"></script>
-    <script src="plantilla/Admin/vertical/assets/js/jquery.min.js"></script>
-    <script src="plantilla/Admin/vertical/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="plantilla/Admin/vertical/assets/js/metismenu.min.js"></script>
-    <script src="plantilla/Admin/vertical/assets/js/waves.js"></script>
-    <script src="plantilla/Admin/vertical/assets/js/simplebar.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/js/bootstrap.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/js/jquery.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/js/metismenu.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/js/waves.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/js/simplebar.min.js"></script>
 
     <!-- App js -->
-    <script src="plantilla/Admin/vertical/assets/js/theme.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/js/theme.js"></script>
 
 </body>
 

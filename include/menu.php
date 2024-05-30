@@ -66,7 +66,7 @@
             <div class="dropdown d-inline-block">
                 <button type="button" class="btn header-item waves-effect" data-toggle="dropdown" aria-haspopup="true"
                     aria-expanded="false">
-                    <img class="" src="plantilla/Admin/vertical/assets/images/flags/us.jpg" alt="Header Language"
+                    <img class="" src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/images/flags/us.jpg" alt="Header Language"
                         height="16">
                     <span class="d-none d-sm-inline-block ml-1">Ingles</span>
                     <i class="mdi mdi-chevron-down d-none d-sm-inline-block"></i>
@@ -75,7 +75,7 @@
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                        <img src="plantilla/Admin/vertical/assets/images/flags/spain.jpg" alt="user-image" class="mr-1"
+                        <img src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/images/flags/spain.jpg" alt="user-image" class="mr-1"
                             height="12">
                         <span class="align-middle">Español</span>
                     </a>
