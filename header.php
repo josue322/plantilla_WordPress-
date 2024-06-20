@@ -119,21 +119,21 @@
 
                             <!-- item-->
                             <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <img src="plantilla/Admin/vertical/assets/images/flags/germany.jpg" alt="user-image"
+                                <img src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/images/flags/germany.jpg" alt="user-image"
                                     class="mr-1" height="12">
                                 <span class="align-middle">Aleman</span>
                             </a>
 
                             <!-- item-->
                             <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <img src="plantilla/Admin/vertical/assets/images/flags/italy.jpg" alt="user-image"
+                                <img src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/images/flags/italy.jpg" alt="user-image"
                                     class="mr-1" height="12">
                                 <span class="align-middle">Italiano</span>
                             </a>
 
                             <!-- item-->
                             <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <img src="plantilla/Admin/vertical/assets/images/flags/russia.jpg" alt="user-image"
+                                <img src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/images/flags/russia.jpg" alt="user-image"
                                     class="mr-1" height="12">
                                 <span class="align-middle">Ruso</span>
                             </a>
@@ -162,7 +162,7 @@
                             <div data-simplebar style="max-height: 230px;">
                                 <a href="" class="text-reset notification-item">
                                     <div class="media">
-                                        <img src="plantilla/Admin/vertical/assets/images/users/avatar-2.jpg"
+                                        <img src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/images/users/avatar-2.jpg"
                                             class="mr-3 rounded-circle avatar-xs" alt="user-pic">
                                         <div class="media-body">
                                             <h6 class="mt-0 mb-1">Samuel Coverdale</h6>
@@ -192,7 +192,7 @@
                                 </a>
                                 <a href="" class="text-reset notification-item">
                                     <div class="media">
-                                        <img src="plantilla/Admin/vertical/assets/images/users/avatar-3.jpg"
+                                        <img src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/images/users/avatar-3.jpg"
                                             class="mr-3 rounded-circle avatar-xs" alt="user-pic">
                                         <div class="media-body">
                                             <h6 class="mt-0 mb-1">Victoria Mendis</h6>
@@ -216,7 +216,7 @@
                         <button type="button" class="btn header-item waves-effect" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                             <img class="rounded-circle header-profile-user"
-                                src="plantilla/Admin/vertical/assets/images/users/avatar-2.jpg" alt="Header Avatar">
+                                src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/images/users/lauda.avif" alt="Header Avatar">
                             <span class="d-none d-sm-inline-block ml-1">Josué L.</span>
                             <i class="mdi mdi-chevron-down d-none d-sm-inline-block"></i>
                         </button>
@@ -274,9 +274,9 @@
                     )
                 );
                 ?>
-                <!--- Sidemenu -->
-                <div id="sidebar-menu">
-                    <!-- Left Menu Start -->
+                
+                <!---<div id="sidebar-menu">
+                     
                     <ul class="metismenu list-unstyled" id="side-menu">
                         <li class="menu-title">Menu</li>
 
@@ -417,7 +417,7 @@
                 </div>
 
 
-                <!-- Sidebar -->
+                 Sidebar -->
             </div>
         </div>
         <!-- Left Sidebar End -->
