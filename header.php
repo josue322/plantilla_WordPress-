@@ -21,7 +21,7 @@
     <link href="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/css/theme.min.css" rel="stylesheet"
         type="text/css" />
     <link
-        href="<?php bloginfo('template_url'); ?>/https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/css/bootstrap.min.css"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/css/bootstrap.min.css"
         rel="stylesheet">
 
 </head>
