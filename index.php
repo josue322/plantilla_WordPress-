@@ -88,9 +88,9 @@ get_header();
                             ?>
                             <div class="col-md-4">
                                 <div class="card">
-                                    <a href="<?php the_permalink(); ?>"><?php
+                                    <a href="<?php the_permalink(); ?>" style="height:300px;"><?php
                                     if (has_post_thumbnail()) {
-                                        the_post_thumbnail('thumbnail', array( 'class' => 'card-img-top img-fluid' ));
+                                        the_post_thumbnail('thumbnail', array( 'class' => 'card-img-top img-fluid w-100 h-100' ));
                                     }
                                     ?></a>
                                     <img class="card-img-top img-fluid"
